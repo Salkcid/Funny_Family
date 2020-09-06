@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+}
+
+/********** Grid creating **********/
+body {
+  display: grid;
+  margin: 0;
+  min-height: 100vh;
+  grid-template-columns: 15vw auto 15vw;
+  grid-template-rows: 140px auto 10vh;
+  row-gap: 1vw;
+  grid-template-areas:
+    ". header ."
+    ". main   ."
+    ". footer .";
+}
+
+#firstPageHeader {
+  grid-area: header;
+}
+
+#firstPageMain {
+  grid-area: main;
+}
+
+#firstPageFooter {
+  grid-area: footer;
+}
+
+
+
+/********** Header flexbox **********/
+#firstPageHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  border: 1px solid #3349c0;
+  border-top: none;
+  border-radius: 0 0 1em 1em;
+
+  background-color: #3349c0;
+
+  overflow: hidden;
+
+  box-shadow: -4px 4px 4px 0 lightgray;
+}
+
+#siteName {
+  font-family: 'Pangolin-Regular';
+  color: #ffffff;
+  font-size: 4em;
+  line-height: 100%;
+
+  margin: 0;
+  padding: 0.2em 0.5em 0;
+
+  /* max-width: inherit; */
+  /* height: 50%; */
+  /* max-height: inherit; */
+}
+
+#blackCat {
+  margin: 0;
+  max-width: 5vw;
+
+  /* background-image: linear-gradient(#ffffff, #ffffff); */
+  /* border: 1px solid #3349c0; */
+  /* border-radius: 50%; */
+}
+
+#siteName {
+  align-self: flex-start;
+}
+
+#backgrondForBlackCat {
+  align-self: flex-end;
+
+  background-image: linear-gradient(#ffffff, #ffffff);
+  border: 1px solid #3349c0;
+  border-radius: 50%;
+}
+
+
+
+/********** Main flexbox **********/
+#firstPageMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#firstPageMain > nav {
+  flex: 3 0 20vw;
+  padding: 0.3em;
+  padding-bottom: 1em;
+  margin: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#firstPageMain > div {
+  flex: 1 0 5vw;
+  padding: 0.5em;
+  margin: 0;
+
+  border: 1px solid #3349c0;
+  border-radius: 1em;
+}
+
+#mainNav > div {
+  border: 1px solid #3349c0;
+  border-radius: 1em;
+
+  width: 30%;
+  text-align: center;
+}
+
+#mainNav .navTextLink,
+#mainNav .navImageLink {
+  outline: none;
+  text-decoration: none;
+}
+
+#mainNav .navTextLink:link {
+  color: #3349c0;
+}
+
+#mainNav .navTextLink:visited {
+  color: #3349c0;
+}
+
+#mainNav .navTextLink:focus {
+  color: #3349c0;
+}
+
+#mainNav .navTextLink:hover {
+  color: orange;
+}
+
+#mainNav .navTextLink:active {
+  color: #3349c0;
+}
+
+#mainNav .navTextLink {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'BalsamiqSans-Bold';
+  font-size: 1.5em;
+}
+
+#mainNav .navImageLink img {
+  width: 70%;
+  margin: 0.5em;
+}
+
+#comicQuote {
+  font-family: 'Caveat-Regular';
+  line-height: 100%;
+  text-align: right;
+  color: #3349c0;
+}
+
+#comicQuote p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#comicQuote cite {
+  font-size: 1em;
+  /* text-align: right; */
+}
+
+
+
+/********** Footer flexbox **********/
+#firstPageFooter {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #3349c0;
+
+  box-shadow: -4px 4px 4px 0 lightgray;
+}
+
+#firstPageFooter {
+  border: 1px solid #3349c0;
+  border-bottom: none;
+  border-radius: 1em 1em 0 0;
+}
+
+#goodWishes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  flex: 3;
+}
+
+#goodWishes p {
+  margin: 0;
+  padding: 0;
+
+  margin-left: 1.5em;
+
+  text-align: left;
+
+  font-family: 'EBGaramond-VariableFont_wght';
+  font-size: 1em;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+#copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  flex: 1;
+}
+
+#copyright p {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'EBGaramond-VariableFont_wght';
+  font-size: 0.7em;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+#copyright p a:link {
+  color: #ffffff;
+}
+
+#copyright p a:visited {
+  color: #ffffff;
+}
+
+#copyright p a:focus {
+  color: #ffffff;
+}
+
+#copyright p a:hover {
+  color: orange;
+}
+
+#copyright p a:active {
+  color: #ffffff;
+}
+
+
+/*********** @media **********/
+@media screen and (max-width: 575px) {
+  body {
+    grid-template-columns: 10vw auto 10vw;
+    grid-template-rows: 70px auto 10vh;
+  }
+
+  #siteName {
+    padding-top: 0.5em;
+
+    font-size: 1.5em;
+    text-align: center;
+ }
+
+ #blackCat {
+  margin: 0;
+  max-width: 8vw;
+}
+
+  #mainNav {
+    flex-direction: column;
+  }
+
+  #mainNav div.flexElement {
+    width: 60%;
+    margin: 1em auto 0.1em auto;
+  }
+
+  #firstPageMain > div {
+    margin-bottom: 1.5em;
+  }
+
+  #comicQuote {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #comicQuote p {
+    margin-top: 0;
+    margin-bottom: 2vh;
+  }
+
+  #firstPageFooter {
+    flex-direction: column;
+  }
+
+  #goodWishes p {
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+  }
+
+  #copyright p {
+    font-size: 0.5em;
+    text-align: center;
+  }
+
+  #copyright p:last-child {
+    margin-bottom: 0.5em;
+  }
+}
+
+@media screen and (min-width: 1367px) {
+  #siteName {
+    font-size: 80px;
+  }
+}

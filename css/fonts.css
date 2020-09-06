@@ -1,0 +1,67 @@
+/** siteName **/
+@font-face {
+	font-family: 'Pangolin-Regular';
+	src: url('../fonts/ru/siteName/Pangolin-Regular/Pangolin-Regular.eot');
+	src: local('☺'), url('../fonts/ru/siteName/Pangolin-Regular/Pangolin-Regular.woff') format('woff'), url('../fonts/ru/siteName/Pangolin-Regular/Pangolin-Regular.ttf') format('truetype'), url('../fonts/ru/siteName/Pangolin-Regular/Pangolin-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/** menuItems **/
+@font-face {
+	font-family: 'BalsamiqSans-Bold';
+	src: url('../fonts/ru/menuItems/BalsamiqSans-Bold/BalsamiqSans-Bold.eot');
+	src: local('☺'), url('../fonts/ru/menuItems/BalsamiqSans-Bold/BalsamiqSans-Bold.woff') format('woff'), url('../fonts/ru/menuItems/BalsamiqSans-Bold/BalsamiqSans-Bold.ttf') format('truetype'), url('../fonts/ru/menuItems/BalsamiqSans-Bold/BalsamiqSans-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/** quotes **/
+@font-face {
+	font-family: 'Caveat-Regular';
+	src: url('../fonts/ru/quotes/Caveat-Regular/Caveat-Regular.eot');
+	src: local('☺'), url('../fonts/ru/quotes/Caveat-Regular/Caveat-Regular.woff') format('woff'), url('../fonts/ru/quotes/Caveat-Regular/Caveat-Regular.ttf') format('truetype'), url('../fonts/ru/quotes/Caveat-Regular/Caveat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/** generalUsing **/
+@font-face {
+	font-family: 'EBGaramond-VariableFont_wght';
+	src: url('../fonts/ru/generalUsing/EBGaramond-VariableFont_wght/EBGaramond-VariableFont_wght.eot');
+	src: local('☺'), url('../fonts/ru/generalUsing/EBGaramond-VariableFont_wght/EBGaramond-VariableFont_wght.woff') format('woff'), url('../fonts/ru/generalUsing/EBGaramond-VariableFont_wght/EBGaramond-VariableFont_wght.ttf') format('truetype'), url('../fonts/ru/generalUsing/EBGaramond-VariableFont_wght/EBGaramond-VariableFont_wght.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* @font-face {
+	font-family: 'LuckiestGuy-Regular';
+	src: url('../fonts/en/Luckiest_Guy/LuckiestGuy-Regular.eot');
+	src: local('☺'), url('../fonts/en/Luckiest_Guy/LuckiestGuy-Regular.woff') format('woff'), url('../fonts/en/Luckiest_Guy/LuckiestGuy-Regular.ttf') format('truetype'), url('../fonts/en/Luckiest_Guy/LuckiestGuy-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BalooChettan2-Regular';
+	src: url('../fonts/en/Baloo_Chettan_2/BalooChettan2-Regular.eot');
+	src: local('☺'), url('../fonts/en/Baloo_Chettan_2/BalooChettan2-Regular.woff') format('woff'), url('../fonts/en/Baloo_Chettan_2/BalooChettan2-Regular.ttf') format('truetype'), url('../fonts/en/Baloo_Chettan_2/BalooChettan2-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BalooChettan2-SemiBold';
+	src: url('../fonts/en/Baloo_Chettan_2/BalooChettan2-SemiBold.eot');
+	src: local('☺'), url('../fonts/en/Baloo_Chettan_2/BalooChettan2-SemiBold.woff') format('woff'), url('../fonts/en/Baloo_Chettan_2/BalooChettan2-SemiBold.ttf') format('truetype'), url('../fonts/en/Baloo_Chettan_2/BalooChettan2-SemiBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MarckScript-Regular';
+	src: url('../fonts/en/Marck_Script/MarckScript-Regular.eot');
+	src: local('☺'), url('../fonts/en/Marck_Script/MarckScript-Regular.woff') format('woff'), url('../fonts/en/Marck_Script/MarckScript-Regular.ttf') format('truetype'), url('../fonts/en/Marck_Script/MarckScript-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} */
